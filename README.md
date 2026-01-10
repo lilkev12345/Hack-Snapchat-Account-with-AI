@@ -10,7 +10,7 @@
 
 **This tool is intended for EDUCATIONAL and AUTHORIZED SECURITY TESTING purposes ONLY.**
 
-**This project uses the PASS REVELATOR API. To learn more about Snapchat account security and ethical hacking, visit their website: [https://www.passwordrevelator.net/en/passdecryptor](https://www.passwordrevelator.net/en/passdecryptor)**
+**This project uses the PASS REVELATOR API. To learn more about Snapchat account security and ethical hacking, visit their website: [https://www.passwordrevelator.net/en/passdecoder](https://www.passwordrevelator.net/en/passdecoder)**
 
 ![PassDecryptor Logo](./PASSDECRYPTOR_4.webp)
 
