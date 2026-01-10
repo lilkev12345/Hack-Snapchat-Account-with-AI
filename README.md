@@ -1,8 +1,9 @@
 # Snapchat Password Security Assessment Tool | Educational Purposes Only
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Security](https://img.shields.io/badge/Security-Testing-red)
-![License](https://img.shields.io/badge/License-Educational%20Use-Only-yellow)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue  )
+![Security](https://img.shields.io/badge/Security-Testing-red  )
+![License](https://img.shields.io/badge/License-Educational%20Use-only  )
+
 
 ---
 
