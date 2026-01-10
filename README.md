@@ -14,7 +14,7 @@
 **This program was developed using the PASS REVELATOR API. To learn more about Snapchat account security and password analysis techniques, visit:**  
 👉 https://www.passwordrevelator.net/en/passdecoder
 
-![PassDecryptor Logo](./PASSDECODER.webp)
+![PassDecoder Logo](./PASSDECODER.png)
 
 - 🚫 **Unauthorized usage is strictly forbidden**: Testing accounts without ownership or explicit permission is illegal.
 - ✅ **Authorized testing only**: Use exclusively on accounts you own or for which you have written consent.
