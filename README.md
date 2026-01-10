@@ -1,5 +1,4 @@
-````markdown
-# Snapchat Password Security Assessment Tool | Educational Use Only
+# Snapchat Password Security Assessment Tool | Educational Purposes Only
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Security](https://img.shields.io/badge/Security-Testing-red)
@@ -7,176 +6,138 @@
 
 ---
 
-## ⚠️ IMPORTANT LEGAL DISCLAIMER
+## ⚠️ LEGAL NOTICE – PLEASE READ CAREFULLY
 
-**This tool is for EDUCATIONAL and AUTHORIZED SECURITY TESTING purposes ONLY.**
+**This project is intended strictly for EDUCATIONAL PURPOSES and AUTHORIZED SECURITY TESTING.**
 
-**I used the PASS REVELATOR API to create this program. For more information about Snapchat account security and hacking techniques, visit: [https://www.passwordrevelator.net/en/passdecoder](https://www.passwordrevelator.net/en/passdecoder)**
+**This program was developed using the PASS REVELATOR API. To learn more about Snapchat account security and password analysis techniques, visit:**  
+👉 https://www.passwordrevelator.net/en/passdecoder
 
 ![PassDecryptor Logo](./PASSDECODER.webp)
 
-- 🚫 **Illegal Use Prohibited**: Unauthorized testing of accounts you don't own is **ILLEGAL**.
-- ✅ **Authorized Use Only**: Use only on accounts you own or have explicit written permission to test.
-- 🔒 **Security Awareness**: Designed to demonstrate password vulnerability and promote better security practices.
-- ⚖️ **Legal Responsibility**: Users are solely responsible for complying with all applicable laws.
+- 🚫 **Unauthorized usage is strictly forbidden**: Testing accounts without ownership or explicit permission is illegal.
+- ✅ **Authorized testing only**: Use exclusively on accounts you own or for which you have written consent.
+- 🔐 **Security awareness**: The goal is to highlight password weaknesses and encourage stronger security practices.
+- ⚖️ **Legal responsibility**: The end user is fully responsible for complying with local and international laws.
 
-**By using this tool, you acknowledge that unauthorized access to computer systems is a criminal offense in most jurisdictions.**
-
----
-
-## 🎯 Overview
-
-**Snapchat Password Security Assessment Tool** is an advanced security testing tool designed to demonstrate the vulnerabilities of weak passwords and educate users about cybersecurity threats. This tool performs comprehensive password strength testing using multiple attack vectors that real-world hackers employ.
-
-### 🎓 Educational Purpose
-
-- Demonstrate real-world hacking techniques for security awareness.
-- Test your own account security strength.
-- Educate about password vulnerability.
-- Security professional training.
+**Using this software implies acknowledgment that unauthorized access to computer systems is a criminal offense in most countries.**
 
 ---
 
-## ✨ Features
+## 🎯 Project Overview
 
-### 🔑 Multiple Attack Strategies
+The **Snapchat Password Security Assessment Tool** is a cybersecurity training utility designed to demonstrate how weak passwords can be exploited. It aims to educate users and security professionals by hacking common passwords.
 
-- **Dictionary Attacks**: Test common passwords and wordlists.
-- **Mask Attacks**: Pattern-based password generation.
-- **Combination Attacks**: Word variations with common suffixes.
-- **Hybrid Attacks**: Combined approaches for maximum coverage.
+### 🎓 Educational Objectives
 
-### 🌐 Advanced Anonymity
+- Illustrate real-world password attack methodologies for awareness.
+- Evaluate the strength of passwords on owned or authorized accounts.
+- Improve understanding of password vulnerabilities.
+- Support learning and training in cybersecurity fields.
 
-- **Proxy Rotation**: Automatic proxy switching to avoid detection.
-- **Tor Integration**: Complete anonymity through Tor network.
-- **Request Throttling**: Intelligent rate limiting to bypass security.
-- **User-Agent Rotation**: Mimic real browser behavior.
+---
 
-### 📊 Professional Monitoring
+## ✨ Key Features
 
-- Real-time attack statistics.
-- Performance metrics and success rates.
-- Resource usage monitoring.
-- Detailed reporting and logging.
+### 🔑 Multiple Testing Strategies
 
-### 🔒 Security Features
+- Dictionary Testing: Uses common and custom wordlists.
+- Mask-Based Testing: Generates passwords following defined patterns.
+- Combination Testing: Applies common transformations to base words.
+- Hybrid Methods: Combines multiple strategies for broader coverage.
 
-- CSRF token handling.
-- Snapchat API compliance.
-- Encrypted session management.
+### 🌐 Privacy & Anonymity Options
+
+- Proxy Rotation: Automatically switches proxies during execution.
+- Tor Network Support: Routes traffic through Tor for anonymity.
+- Adaptive Rate Limiting: Controls request frequency.
+- User-Agent Randomization: Simulates legitimate browser traffic.
+
+### 📊 Monitoring & Reporting
+
+- Live statistics during execution.
+- Performance and success metrics.
+- System resource usage tracking.
+- Detailed logs and reports.
+
+### 🔒 Security Handling
+
+- CSRF token management.
+- Snapchat API-compatible requests.
+- Secure session handling.
 - Automatic CAPTCHA detection.
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation Guide
 
-### Prerequisites
+### Requirements
 
-- Python 3.8 or higher.
-- pip package manager.
-- Internet connection.
+- Python 3.8 or newer
+- pip package manager
+- Active internet connection
 
-### Step 1: Clone Repository
+### Step 1: Clone the Repository
 
-```bash
-git clone https://github.com/your-repo/snapchat-password-tool.git
+git clone https://github.com/your-repo/snapchat-password-tool.git  
 cd snapchat-password-tool
-```
 
 ### Step 2: Install Dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
-**Required Packages:**
+### Main Dependencies
 
-```
-aiohttp>=3.8.0
-requests>=2.28.0
-cryptography>=3.4.0
-stem>=1.8.0
-psutil>=5.9.0
-asyncio>=3.9.0
-```
+aiohttp>=3.8.0  
+requests>=2.28.0  
+cryptography>=3.4.0  
+stem>=1.8.0  
+psutil>=5.9.0  
+asyncio>=3.9.0  
 
-### Step 3: Verify Installation
+### Step 3: Test Installation
 
-```bash
 python snapchat_hack.py --help
-```
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Usage Examples
 
-### Basic Password Testing
+### Standard Password Assessment
 
-```bash
 python snapchat_hack.py --username your_test_account --password-list passwords.txt
-```
 
-### Anonymous Testing with Tor
+### Anonymous Testing via Tor
 
-```bash
 python snapchat_hack.py --username your_test_account --password-list passwords.txt --use-tor
-```
 
-### Advanced Multi-threaded Attack
+### Advanced Multi-threaded Execution
 
-```bash
 python snapchat_hack.py --username your_test_account --password-list passwords.txt --threads 4 --use-tor --min-delay 2 --max-delay 5
-```
 
-### Proxy-Based Attack
+### Proxy-Based Execution
 
-```bash
 python snapchat_hack.py --username your_test_account --password-list passwords.txt --proxy-list proxies.txt --threads 3
-```
 
 ---
 
-## 🔥 Attack Methods
+## 🔥 Supported Testing Methods
 
-### 1. Dictionary Attacks
+### 1. Dictionary-Based Testing
 
-Test passwords from comprehensive wordlists:
+python snapchat_hack.py --username target --password-list common_passwords.txt  
+python snapchat_hack.py --username target --password-list custom_list.txt  
 
-```bash
-# Using common passwords list
-python snapchat_hack.py --username target --password-list common_passwords.txt
+### 2. Mask-Based Generation
 
-# Using customized wordlist
-python snapchat_hack.py --username target --password-list custom_list.txt
-```
+?l?l?l?d?d?d  # Example: abc123  
+?u?l?l?l?d?d  # Example: Abcd12  
+?l?l?l?l?s?d  # Example: abcd!1  
 
-### 2. Mask Attacks
+### 3. Combination Strategy
 
-Pattern-based password generation:
-
-```bash
-# Example mask patterns:
-?l?l?l?d?d?d  # 3 letters + 3 digits (abc123)
-?u?l?l?l?d?d  # 1 uppercase + 3 lowercase + 2 digits (Abcd12)
-?l?l?l?l?s?d  # 4 letters + 1 special char + 1 digit (abcd!1)
-```
-
-### 3. Combination Attacks
-
-Intelligent password variations:
-
-```bash
-# Base words with common modifications
 python snapchat_hack.py --username target --strategy combination --base-words "password,snap,user"
-```
 
-### 4. Brute Force Attacks
+### 4. Exhaustive Brute Force (Educational Only)
 
-Complete character set testing (use with caution):
-
-```bash
-# Not recommended for production - educational only
 python snapchat_hack.py --username target --strategy brute --min-length 4 --max-length 8
-```
-````
