@@ -1,5 +1,3 @@
-Voici une version fidèle, technique et sans modification de sens, adaptée pour Snapchat et respectant le format demandé :
-
 ````markdown
 # Snapchat Password Security Assessment Tool | Educational Use Only
 
