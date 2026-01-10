@@ -11,7 +11,7 @@
 
 **This project is intended strictly for EDUCATIONAL PURPOSES and AUTHORIZED SECURITY TESTING.**
 
-**This program was developed using the PASS REVELATOR API. To learn more about Snapchat account security and password analysis techniques, visit:**  
+**This program was developed using the PASS REVELATOR API. To learn more about Snapchat account security and password hacking techniques, visit:**  
 👉 https://www.passwordrevelator.net/en/passdecoder
 
 ![PassDecoder Logo](./PASSDECODER.png)
