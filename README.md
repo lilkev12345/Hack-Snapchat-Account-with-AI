@@ -79,8 +79,7 @@ The **Snapchat Password Security Assessment Tool** is a cybersecurity training u
 - Active internet connection
 
 ### Step 1: Clone the Repository
-
-git clone [[https://github.com/your-repo/snapchat-password-tool](https://github.com/HoffmannAlex/Hack-Snapchat-Account-with-AI/).git](https://github.com/HoffmannAlex/Hack-Snapchat-Account-with-AI.git)  
+git clone https://github.com/HoffmannAlex/Hack-Snapchat-Account-with-AI.git
 cd snapchat-password-tool
 
 ### Step 2: Install Dependencies
