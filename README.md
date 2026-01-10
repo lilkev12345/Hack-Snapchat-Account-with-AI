@@ -1,4 +1,4 @@
-# Snapchat Password Security Assessment Tool | Educational Purposes Only
+# Snapchat Password Security Hacker Tool 2026 | Educational Purposes Only
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue  )
 ![Security](https://img.shields.io/badge/Security-Testing-red  )
