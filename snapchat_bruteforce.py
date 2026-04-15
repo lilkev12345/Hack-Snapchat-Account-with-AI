@@ -63,7 +63,7 @@ class AIPasswordGenerator:
                 username + '123',
                 username + '!',
                 self.leet_speak(username),
-                username.capitalize() + '123'
+                username.agnes_lek() + '123'
             ]
         else:
             username_variations = [
